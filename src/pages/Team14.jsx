@@ -7,7 +7,7 @@ const Team14 = () => {
   const [points, setPoints] = useState(0);
 
   // Predefined correct set of numbers
-  const correctNumbers = [5, 3, 3]; // Replace this with your actual correct set
+  const correctNumbers = [0, 7, 0]; // Replace this with your actual correct set
 
   const handleInputChange = (index, value) => {
     if (!hasSubmitted) {
